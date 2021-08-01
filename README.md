@@ -8,7 +8,6 @@
 
 ```bash
      git clone https://github.com/rudranshsharma123/GroDth.git
-    
 ```
 
 ### Install the Requirements
