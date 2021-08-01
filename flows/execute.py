@@ -1,8 +1,6 @@
 from jina import Executor, Document, DocumentArray, requests
 import os
-# from utils.helper import clean_string
-# import numpy as np
-# from typing import Tuple
+
 
 top_k = 2
 
@@ -35,8 +33,7 @@ class MyIndexer(Executor):
 
     @requests(on="/search")
     def search(self, docs, **kwargs):
-        # print(
-        #     f"\tSearching index of {len(self._docs)} Documents for \"{docs[0].text}\"")
+     
         darr = self._docs
         res = darr.get_attributes('text')
         tags = [res[i].split('-') for i in range(len(res))]
@@ -52,5 +49,3 @@ class MyIndexer(Executor):
 
 
        
-
-        # return DocumentArray([required_doc])
