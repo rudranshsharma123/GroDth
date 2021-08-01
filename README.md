@@ -1,6 +1,5 @@
 # GroDth
 
-<hr>
 
 # How to use guide
 
