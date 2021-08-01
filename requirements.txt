@@ -1,0 +1,8 @@
+opencv-python
+opencv-contrib-python
+jina
+pandas
+requests
+git+https://github.com/jina-ai/jina-commons
+inquirer
+termcolor
