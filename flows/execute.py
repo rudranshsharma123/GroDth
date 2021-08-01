@@ -6,7 +6,7 @@ top_k = 2
 
 path = os.path.join(os.path.abspath('workspace/DiskIndexer/0/apps.json'))
 class MyIndexer(Executor):
-    """Simple indexer class"""
+    
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
