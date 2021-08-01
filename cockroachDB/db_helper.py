@@ -11,7 +11,7 @@ import psycopg2
 conn = psycopg2.connect(
     database='shiny-wolf-1947.jina',
     user='test',
-    password='rudranshsharma123',
+    password='yourpassword',
     sslmode='require',
     port=26257,
     host='free-tier.gcp-us-central1.cockroachlabs.cloud',
