@@ -283,8 +283,8 @@ class HomePage():
         self.driver.implicitly_wait(5)
         return LoginPage(self.driver)
 
-username = 'rudransh69420' #add Your username   
-password = 'rudra1609' #add your Password
+username = '' #add Your username   
+password = '' #add your Password
 search_text = "#cats" # Type in the thing you would want to be searched
 
 browser = webdriver.Firefox(executable_path="geckodriver.exe") #Add the path to the gekodriver you can also add realative path instead of the actual 
